@@ -97,3 +97,21 @@ body {
 }
 
 /* large screen styles */
+
+@media screen and (min-width: 600px) {
+  .btn-container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .btn-container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .btn-container {
+    width: 40%;
+  }
+}
