@@ -14,6 +14,8 @@
   --primary-color-dark: #eab308;
   --secondary-color-light: #86efac;
   --secondary-color-dark: #22c55e;
+  --bg-color-light: #475569;
+  --bg-color-dark: #0f172a;
 }
 
 /* reset */
@@ -105,6 +107,21 @@ body {
 
 .sec-color {
   color: var(--secondary-color);
+}
+
+.t4 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 /* large screen styles */
