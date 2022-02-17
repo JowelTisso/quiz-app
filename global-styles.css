@@ -99,6 +99,14 @@ body {
   text-align: center;
 }
 
+.pri-color {
+  color: var(--primary-color);
+}
+
+.sec-color {
+  color: var(--secondary-color);
+}
+
 /* large screen styles */
 
 @media screen and (min-width: 600px) {
