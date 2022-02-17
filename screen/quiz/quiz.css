@@ -25,6 +25,10 @@
   background-color: var(--bg-color-light);
 }
 
+.btn-primary:hover {
+  background-color: var(--primary-color);
+}
+
 /* footer nav */
 .footer-nav {
   justify-content: space-between;

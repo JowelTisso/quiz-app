@@ -1,0 +1,8 @@
+/* option */
+.option-correct {
+  background-color: var(--secondary-color);
+}
+
+.option-wrong {
+  background-color: var(--danger-color);
+}

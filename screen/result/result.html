@@ -7,11 +7,12 @@
     <link rel="shortcut icon" href="/asset/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://shieldui.netlify.app/css/shield.css" />
     <link rel="stylesheet" href="/global-styles.css" />
-    <link rel="stylesheet" href="quiz.css" />
-    <title>Quiz</title>
+    <link rel="stylesheet" href="/screen/quiz/quiz.css" />
+    <link rel="stylesheet" href="result.css" />
+    <title>Result</title>
   </head>
   <body>
-    <h1 class="h3 txt-center mg-top-2x pri-color">Arrow functions</h1>
+    <h1 class="h3 txt-center mg-top-2x pri-color">Result</h1>
     <main class="container">
       <div class="quiz-header">
         <p class="t4 question-count">Question: 1/5</p>
@@ -33,18 +34,15 @@
         </iframe>
       </div>
       <div class="option-container mg-top-3x">
-        <button class="btn btn-primary t4">42</button>
+        <button class="btn btn-primary t4 option-correct">42</button>
         <button class="btn btn-primary t4">100</button>
-        <button class="btn btn-primary t4">undefined</button>
+        <button class="btn btn-primary t4 option-wrong">undefined</button>
         <button class="btn btn-primary t4">reference error</button>
       </div>
       <div class="footer-nav flex-center mg-top-2x">
         <div>
           <ion-icon name="chevron-back" class="icon"></ion-icon>
           <a href="/screen/category/category.html" class="t4">Back</a>
-        </div>
-        <div>
-          <a href="/screen/result/result.html" class="t4 no-deco">Submit</a>
         </div>
         <div>
           <a href="#" class="t4">Next</a>
