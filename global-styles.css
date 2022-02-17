@@ -120,6 +120,10 @@ body {
   align-items: center;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 /* large screen styles */
 
 @media screen and (min-width: 600px) {

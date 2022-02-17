@@ -20,6 +20,10 @@
   border-radius: 10px;
 }
 
+.category-logo:hover {
+  background-color: var(--bg-color-dark);
+}
+
 /* icon */
 .icon {
   font-size: 1.5rem;
