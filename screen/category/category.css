@@ -9,7 +9,7 @@
 }
 
 .category-card {
-  width: 12rem;
+  width: 50%;
   flex-direction: column;
 }
 
@@ -29,10 +29,18 @@
   font-size: 1.5rem;
 }
 
+.t4 {
+  font-size: 1rem;
+}
+
 /* larger screen styles */
 @media screen and (min-width: 450px) {
   .category-container {
     width: 25rem;
+  }
+
+  .category-card {
+    width: 12rem;
   }
 }
 @media screen and (min-width: 650px) {
